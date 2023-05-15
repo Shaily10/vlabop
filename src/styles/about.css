@@ -1,0 +1,34 @@
+ /* Center align the content */
+.about div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  /* Style the heading */
+ .about h1 {
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style the subheading */
+ .about h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Style the paragraphs */
+ .about p {
+    font-size: 1.2rem;
+    margin: 1rem 25rem ;
+    text-align: justify;
+    color: #444;
+    line-height: 1.5;
+    max-width: 800px;
+  }
+ 
